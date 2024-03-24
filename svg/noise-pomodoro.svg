@@ -1,0 +1,16 @@
+<svg width="1920" height="959" viewBox="0 0 1920 959" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs>
+		<filter id="noise">
+			<feTurbulence
+				type="fractalNoise"
+				baseFrequency="20"
+				numOctaves="15"
+				result="turbulence"
+        stitchTiles='stitch'
+			/>
+		</filter>
+	</defs>
+	<rect
+    width='100%' 
+    height='100%' 
+    filter='url(#noise)' />
+</svg>
